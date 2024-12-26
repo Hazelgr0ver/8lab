@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">8Lab</string>
+    <string name="hint_meters">Метры</string>
+    <string name="hint_kilometers">Километры</string>
+    <string name="hint_centimeters">Сантиметры</string>
+    <string name="hint_millimeters">Миллиметры</string>
+    <string name="clear_button">Очистить</string>
+</resources>

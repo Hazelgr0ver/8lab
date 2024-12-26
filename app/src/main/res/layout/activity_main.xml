@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Заголовок для поля ввода метров -->
+    <TextView
+        android:id="@+id/tvMeters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_meters"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Поле ввода для метров -->
+    <EditText
+        android:id="@+id/etMeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_meters"
+        android:inputType="numberDecimal" />
+
+    <!-- Заголовок для поля ввода километров -->
+    <TextView
+        android:id="@+id/tvKilometers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_kilometers"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Поле ввода для километров -->
+    <EditText
+        android:id="@+id/etKilometers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_kilometers"
+        android:inputType="numberDecimal" />
+
+    <!-- Заголовок для поля ввода сантиметров -->
+    <TextView
+        android:id="@+id/tvCentimeters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_centimeters"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Поле ввода для сантиметров -->
+    <EditText
+        android:id="@+id/etCentimeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_centimeters"
+        android:inputType="numberDecimal" />
+
+    <!-- Заголовок для поля ввода миллиметров -->
+    <TextView
+        android:id="@+id/tvMillimeters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_millimeters"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Поле ввода для миллиметров -->
+    <EditText
+        android:id="@+id/etMillimeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_millimeters"
+        android:inputType="numberDecimal" />
+
+    <!-- Кнопка очистить -->
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_button" />
+
+</LinearLayout>
